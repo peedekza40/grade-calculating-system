@@ -1,0 +1,10 @@
+@import url(../Font/THSarabunNew/thsarabunnew.css);
+	.fontCenter{text-align:center;}
+	.fontLeft{text-align:left;}
+	.fontRight{text-align:right;}
+	body{ 
+		font-family: 'THSarabunNew';
+	}
+	.textReport{
+		font-size: 10px;
+	}

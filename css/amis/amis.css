@@ -1,0 +1,92 @@
+/*@import 'https://fonts.googleapis.com/css?family=Maitree|Prompt'; */
+@font-face {
+  font-family: 'Maitree';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maitree'), url(/../ckr/fonts/maitree.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200B-200D, U+25CC;
+}
+/* latin */
+@font-face {
+  font-family: 'Maitree';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maitree'), url(/../ckr/fonts/maitree-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+*:not(i){ 
+	font-family: 'Maitree', sans-serif; 
+    color: #000000;
+}
+.tooltip {
+font-family: 'Maitree', sans-serif;
+ font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.datepicker{
+	font-family: 'Maitree', sans-serif;
+    font-size: 18px;
+	}
+.panel .panel-heading{
+	font-family: 'Maitree', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+	color: #ffffff;
+    background-color: #00b1f5;
+}	
+.panel .panel-heading2{
+	font-family: 'Maitree', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+	color: #000000;
+    background-color: #6ec3ff;
+	border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+	padding: 0px 16px 0px 16px;
+    line-height: 48px;
+}
+.panel .panel-body{
+	font-family: 'Maitree', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+	box-shadow: 0 1px 3px 0px #00b1f5;
+	
+}
+.panel .panel-body2{
+	font-family: 'Maitree', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+	box-shadow: 0 1px 3px 0px #eeeeee;
+}		
+.panel .panel-body2{
+	font-family: 'Maitree', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+	padding: 18px;
+}		
+.form-control {
+    color: #000000 !important ;
+}
+.input-daterange input {
+    text-align: left;
+}
+.datepicker{
+    font-size: 16px;
+	max-width: 40%;
+}
+.btn-font-Maitree{
+	font-family: 'Maitree', sans-serif;
+    font-weight: bold;
+	color: #ffffff;	
+}	
+th {
+	text-align: center;
+	
+}
+.input-group .input-group-addon{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}

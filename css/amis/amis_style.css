@@ -1,0 +1,158 @@
+/*@font-face {
+ font-family: "THSarabunPSK";
+ src: url("../../font/MyFont_THSarabun.php");
+ font-size: 10pt;
+}
+table, thead, tbody, tr, th, td, td:div{
+ font-size: 11pt;
+ font-family: "THSarabunPSK";
+}*/
+a, a[class*=fancy], a[class*=da-tooltip]{
+	color : green;
+}
+.link:hover {
+	cursor : pointer;
+}
+.dont{
+	cursor : not-allowed;
+}
+th{
+	font-weight : bold;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: scale(1,1);
+  }
+  to { 
+    -webkit-transform: scale(3,3);
+  }
+}
+.find, [show=show]{
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         0.8s; 
+    -webkit-animation-iteration-count:  3;
+    -webkit-transition-timing-function: linear;
+}
+.paper{
+	-webkit-box-shadow:0px 0px 20px #00BFFF;
+	-moz-box-shadow: 0px 0px 20px #00BFFF;
+	box-shadow: 0px 0px 20px #00BFFF;
+}
+.choice:hover{
+	cursor: pointer;
+	/*border:1px; */
+	border-radius : 20px 20px 20px 20px;
+	padding : 0 0.5em 0 0.5em;
+	border-style: solid;
+	-webkit-box-shadow:0px 0px 20px #00BFFF;
+	-moz-box-shadow: 0px 0px 20px #00BFFF;
+	box-shadow: 0px 0px 20px #00BFFF;
+}
+/*add by chotios
+*/
+.headerTable{
+	color: black;
+	background-color: rgba(251, 255, 150, 1);
+}
+div.datepicker{
+	max-width: 281px;
+}
+thead tr th{
+	text-align: center;
+}
+
+.panel.panel-default .panel-heading{
+	background-color: rgba(255, 225, 74, 1);
+    color: black;	
+}
+.weight-input{
+	width:150px; 
+	background:#AAAAAA; 
+	float:right;
+}
+.btn-success{
+	float: right;
+}
+.fontred{
+	color: red;
+}
+.panel.panel-default .panel-heading.a{
+	background-color: #eeeeee;
+}
+.section{
+	display:inline-block;
+	width: 280px;
+	height: 30px;	
+	margin-left: 0.25cm;
+	margin-right: auto;
+	margin-bottom: 0cm;
+}
+
+.sectionTch{
+	display:inline-block;
+	width: 200px;
+	height: 30px;	
+	margin-left: 0.25cm;
+	margin-right: auto;
+	margin-bottom: 0cm;
+}
+#area{
+	position:relative;
+}
+#setting{
+
+	position:absolute;
+	top:20px;
+	right:10px;
+}
+#settingText{
+	position:absolute;
+	top:30px;
+	right:105px;
+}
+.onoffswitch {
+    position: relative; width: 88px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #9C9B99; border-radius: 50px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 37px; padding: 0; line-height: 37px;
+    font-size: 19px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #006400; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EE0000; color: #5E5D5A;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 19px; margin: 9px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 47px;
+    border: 2px solid #9C9B99; border-radius: 50px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
